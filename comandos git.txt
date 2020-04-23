@@ -1,0 +1,25 @@
+git config --global user.xxxx                 credenciales de la maquina
+git config --global -l                        muestra credenciales
+git init                                      iniciar repositorio
+git status                                    estado actual de los archivos
+git add .                                     control de gestion sobre archivos. Actualiza archivos
+git commit -m "commit inicial"                agregar archivos al stage
+git commit -m "xxxxx"                         confirmar cambios
+git diff                                      muestra los cambios realizados en los archivos
+git checkout .                                volvemos al estado anterior a la ultima modificacion de archivos
+git log                                       historial de cambios en archivos
+git add xxx.xx                                para un archivo en particular
+git add xxx/                                  para un directorio en particular
+git add xxx/*.xxx                             para agregar cambios solo en esa extension 
+git reset xxxxxx                              quitar del stage, usar las particularidades de git add para un archivo determinado
+git help                                      muestra los comandos posibles y sus objetivos
+git config --global alias.x "yyy"             sirve para darle un alias x a un comando yyy
+git commit --amend -m "xxx"                   renombrar la confirmacion del commit
+git mv xxx.ss yyy.ss                          cambiar el nombre del archivo xxx a yyy
+git remove xxx.ss                             remover un archivo
+git reset --soft 5452154548                   regresa al momento anterior del remove, utiliza el commit de la remocion 
+git reset --hard 545456454                    recupera el archivo eliminado en remove, utiliza el commit de la remocion 
+git reflog                                    historicos de cambios commit
+git reset --mixed 564654654                   muestra el hito del archivo removido usando su commit
+git remote add origin https...                enlazar repositorio local y repositorio creado en github 
+git push -u origin master                     ingresar usuario y clave de github
