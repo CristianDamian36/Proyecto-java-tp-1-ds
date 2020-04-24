@@ -7,7 +7,8 @@ import vista.VistaPrincipal;
 public class Main {
 
     public static void main(String[] args) {
-        RepositorioCentral.iniciar();
+	//iniciar repositorio        
+	RepositorioCentral.iniciar();
         PresentadorVistas.iniciarPorDefecto(new VistaPrincipal());
     }
     
